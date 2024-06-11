@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avada Extreme Sports</title>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav id="main_menu" class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto flex items-center justify-between">
+      <a href="#">
+        <img src="../Images/menu_logo.png" alt="Menu Logo" />
+      </a>
+      <button class="text-light lg:hidden" id="menu_toggle">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="hidden lg:flex space-x-4">
+        <a class="text-white text-lg" href="#">Home</a>
+        <a class="text-white text-lg" href="#">About Us</a>
+        <a class="text-white text-lg" href="#">Latest News</a>
+        <a class="text-white text-lg" href="#">Contact</a>
+        <a class="text-white text-lg" href="#">Activities</a>
+      </div>
+    </div>
+  </nav>
+
+  <section id="banner" class="bg-cover bg-center text-white py-5 flex justify-center items-center"
+    style="background-image: url('../Images/bannerbg.png'); height: 100vh;">
+    <div class="text-center">
+      <h1 class="text-4xl md:text-6xl font-bold">Experience The Spirit Of Adventure Sports</h1>
+      <div class="mt-4">
+        <a class="btn btn-primary mr-3 bg-blue-500 text-white px-4 py-2 rounded" href="#">Explore Activities</a>
+        <a class="btn btn-outline-primary border-2 border-blue-500 text-blue-500 px-4 py-2 rounded" href="#">Who We
+          Are</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mx-auto py-10 my-10">
+    <div class="flex flex-wrap">
+      <div class="lg:w-1/2 px-4">
+        <h2 class="text-3xl font-bold">Categories of Extreme-Sports</h2>
+        <h3 class="text-2xl">Join Us And Embark On New Adventures</h3>
+        <p class="mt-4">Adventure sports, extreme activities, and adrenaline-pumping experiences are popular pursuits
+          for thrill-seekers and outdoor enthusiasts. Here's an overview of some of the most exciting options:</p>
+        <ul class="mt-4 space-y-2">
+          <li>Land-Based Activities</li>
+          <li>Water-Based Activities</li>
+          <li>Snow-Based Activities</li>
+          <li>Combination and Unique Activities</li>
+        </ul>
+        <a href="#" class="btn btn-primary my-4 bg-blue-500 text-white px-4 py-2 rounded">Discover More</a>
+      </div>
+      <div class="lg:w-1/2 flex flex-wrap px-4 mt-4 lg:mt-0">
+        <div class="w-1/2 p-2">
+          <img src="../Images/Adventures.png" alt="Adventures" class="w-full h-full object-cover rounded" />
+        </div>
+        <div class="w-1/2 p-2">
+          <img src="../Images/Adventures2.png" alt="Adventures" class="w-full h-full object-cover rounded" />
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-wrap mt-4">
+      <div class="w-1/4 p-2">
+        <div class="text-center text-light bg-dark border rounded p-3">
+          <h4 class="text-2xl">10+</h4>
+          <p>Sports Activities</p>
+        </div>
+      </div>
+      <div class="w-1/4 p-2">
+        <div class="text-center text-light bg-dark border rounded p-3">
+          <h4 class="text-2xl">3k+</h4>
+          <p>Registered Enthusiasts</p>
+        </div>
+      </div>
+      <div class="w-1/4 p-2">
+        <div class="text-center text-light bg-dark border rounded p-3">
+          <h4 class="text-2xl">15+</h4>
+          <p>Years of Experience</p>
+        </div>
+      </div>
+      <div class="w-1/4 p-2">
+        <div class="text-center text-light bg-dark border rounded p-3">
+          <h4 class="text-2xl">9.5</h4>
+          <p>Average Rating</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="sports" class="py-10 mt-10 bg-gray-900">
+    <div class="container mx-auto">
+      <div class="text-center mb-5">
+        <div class="comon_head">
+          <h2 class="text-white text-3xl font-bold">Examples</h2>
+          <h3 class="text-white text-2xl">Extreme Sports Activities</h3>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="relative mb-4">
+          <img src="../Images/sports2.png" class="w-full" alt="Mountain Biking" />
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
+            <h4 class="text-white text-xl font-bold">Snow-Based Activities</h4>
+            <p class="text-white">Snowboarding</p>
+          </div>
+        </div>
+        <div class="relative mb-4">
+          <img src="../Images/sports1.png" class="w-full" alt="Mountain Biking" />
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
+            <h4 class="text-white text-xl font-bold">Land-Based Activities</h4>
+            <p class="text-white">Mountain Biking</p>
+          </div>
+        </div>
+        <div class="relative mb-4">
+          <img src="../Images/sports3.png" class="w-full" alt="Mountain Biking" />
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
+            <h4 class="text-white text-xl font-bold">Water-Based Activities</h4>
+            <p class="text-white">Surfing</p>
+          </div>
+        </div>
+        <div class="relative mb-4">
+          <img src="../Images/sports4.png" class="w-full" alt="Mountain Biking" />
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
+            <h4 class="text-white text-xl font-bold">Land-Based Activities</h4>
+            <p class="text-white">Skateboarding</p>
+          </div>
+        </div>
+        <div class="relative mb-4">
+          <img src="../Images/sports5.png" class="w-full" alt="Mountain Biking" />
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
+            <h4 class="text-white text-xl font-bold">Water-Based Activities</h4>
+            <p class="text-white">Water-bike Surfing</p>
+          </div>
+        </div>
+        <div class="relative mb-4">
+          <img src="../Images/sports6.png" class="w-full" alt="Mountain Biking" />
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity">
+            <h4 class="text-white text-xl font-bold">Combination and Unique Activities</h4>
+            <p class="text-white">Zip-Lining</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-[#113543] py-5 mt-10">
+        <div class="container mx-auto">
+          <h2 class="text-center text-white text-3xl font-bold">Extreme Sports</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="max" class="bg-gray-800 py-10">
+    <div class="container mx-auto text-center">
+      <div class="max_logo mb-6">
+        <img src="./Images/logo-white 1.png" alt="White Logo" class="mx-auto">
+      </div>
+      <div class="max_head mb-6">
+        <h2 class="text-3xl text-white font-bold">Extreme Sports Will Test Your Limits And Push The Boundaries To The
+          Max</h2>
+        <p class="text-white mt-4">Be Prepared To Experience The New Adventures</p>
+      </div>
+      <div class="max_button mb-6">
+        <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded mr-4">Join Our Club</a>
+        <a href="#" class="border-2 border-white text-white px-4 py-2 rounded">View The Demo</a>
+      </div>
+      <div class="max_cards grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="relative max_item">
+          <img src="./Images/sports2.png" alt="Sports Videos" class="w-full h-full object-cover rounded">
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-4 rounded">
+            <h3 class="text-xl font-bold mb-2">Snow-Based</h3>
+            <h4 class="text-lg mb-2">Get Inspired</h4>
+            <p>Snowboarding</p>
+          </div>
+        </div>
+        <div class="relative max_item">
+          <img src="./Images/sports6.png" alt="Sports Videos" class="w-full h-full object-cover rounded">
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-4 rounded">
+            <h3 class="text-xl font-bold mb-2">Water-Based</h3>
+            <h4 class="text-lg mb-2">Get Inspired</h4>
+            <p>Water-bike boarding</p>
+          </div>
+        </div>
+        <div class="relative max_item">
+          <img src="./Images/sports5.png" alt="Meet Our Team" class="w-full h-full object-cover rounded">
+          <div
+            class="absolute inset-0 flex flex-col justify-center items-center bg-black bg-opacity-50 text-white p-4 rounded">
+            <h3 class="text-xl font-bold mb-2">Meet Our Team</h3>
+            <h4 class="text-lg mb-2">The Instructors</h4>
+            <p>Dolor sit amet magna</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="choose_us" class="py-10 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <div class="choose_head mb-6">
+        <h2 class="text-3xl font-bold text-gray-800">Our Motivation</h2>
+        <h3 class="text-xl text-gray-600 mt-2">Why you should Try Extreme-Sports</h3>
+      </div>
+      <div class="flex flex-wrap -mx-2">
+        <div class="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
+          <img src="./Images/keller.jpeg" alt="" class="rounded-3xl h-20 mx-auto w-20">
+          <div class="logo_text mt-4 text-center">
+            <h4 class="text-lg font-bold text-gray-800">Helen Keller</h4>
+            <p class="text-gray-600 mt-2">“Life is either a daring adventure or nothing at all.”</p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
+          <img src="./Images/rooser.jpg" alt="" class="rounded-3xl h-20 mx-auto w-20">
+          <div class="logo_text mt-4 text-center">
+            <h4 class="text-lg font-bold text-gray-800">Eleanor Roosevelt</h4>
+            <p class="text-gray-600 mt-2">“The purpose of life is to live it, to taste experience to the utmost, to
+              reach out eagerly and without fear for newer and richer experience.” </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
+          <img src="./Images/ts.jpeg" alt="" class="rounded-3xl h-20 mx-auto w-20">
+          <div class="logo_text mt-4 text-center">
+            <h4 class="text-lg font-bold text-gray-800">T.S. Eliot</h4>
+            <p class="text-gray-600 mt-2">“Only those who risk going too far can possibly find out how far one can go.”
+            </p>
+          </div>
+        </div>
+
+        <div class="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
+          <img src="./Images/gide.jpeg" alt="" class="rounded-3xl h-20 mx-auto w-20">
+          <div class="logo_text mt-4 text-center">
+            <h4 class="text-lg font-bold text-gray-800">André Gide</h4>
+            <p class="text-gray-600 mt-2">“Man cannot discover new oceans unless he has the courage to lose sight of the
+              shore.”</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="news" class="py-10 my-10">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full">
+          <div class="news_head">
+            <div class="comon_head text-center mb-5">
+              <h2 class="text-3xl font-bold">Importance of Extreme-Sports</h2>
+            </div>
+            <div class="news_text text-center">
+              <p>
+                Extreme sports offer physical and mental benefits, including improved fitness and stress relief. They
+                foster personal growth by helping individuals overcome fear and achieve challenging goals. Additionally,
+                they provide thrilling experiences and connect participants with nature and like-minded communities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 lg:w-1/3 mb-4 px-2">
+          <div class="card_item bg-white rounded shadow-md overflow-hidden">
+            <div class="news_img">
+              <img src="../Images/news1.png" class="w-full" alt="News Image" />
+            </div>
+            <div class="p-4">
+              <div class="news_text mb-4">
+                <h2 class="text-xl font-bold mb-2">Stress Relief</h2>
+                <p>
+                  Engaging in extreme sports can provide a powerful outlet for stress, allowing participants to focus intensely on the activity and experience a mental release.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 mb-4 px-2">
+          <div class="card_item bg-white rounded shadow-md overflow-hidden">
+            <div class="news_img">
+              <img src="../Images/news2.png" class="w-full" alt="News Image" />
+            </div>
+            <div class="p-4">
+              <div class="news_text mb-4">
+                <h2 class="text-xl font-bold mb-2">Improved Fitness</h2>
+                <p>
+                  Extreme sports demand high levels of physical exertion, which can significantly enhance cardiovascular health, muscle strength, and overall fitness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 lg:w-1/3 mb-4 px-2">
+          <div class="card_item bg-white rounded shadow-md overflow-hidden">
+            <div class="news_img">
+              <img src="../Images/news3.png" class="w-full" alt="News Image" />
+            </div>
+            <div class="p-4">
+              <div class="news_text mb-4">
+                <h2 class="text-xl font-bold mb-2">Overcoming Fear</h2>
+                <p>
+                  Confronting and overcoming fear in extreme sports can translate to greater courage and risk-taking abilities in daily life. and i would recommend trying
+                </p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="footer" class="py-10 bg-gray-900">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-wrap">
+        <div class="w-full md:w-1/2 mb-4 md:mb-0 flex justify-center md:justify-start">
+          <img src="../Images/footer-image 1.png" alt="Footer Image" class="w-2/3 md:w-1/2">
+        </div>
+        <div class="w-full md:w-1/2 flex flex-col justify-center items-center md:items-start">
+          <div class="footer_logo mb-4">
+            <img src="../Images/footer_loogo.png" alt="Footer Logo" class="w-2/3 md:w-1/2">
+          </div>
+          <div class="footer_btn_text_row text-center md:text-left">
+            <div class="footer_btn mt-3">
+              <a href="#" class="btn bg-blue-500 text-white py-2 px-4 rounded">Join Our Club</a>
+            </div>
+            <div class="footer_text mt-3 text-white">
+              <p>
+                Thank you for visiting our website. We strive to provide valuable content and exceptional user experience to our visitors, ensuring they find what they need with ease.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-wrap mt-10">
+        <div class="w-full md:w-1/2 mb-4 md:mb-0">
+          <h2 class="text-white text-2xl">Contact Us</h2>
+          <ul class="list-none text-white">
+            <li><a href="#" class="text-white">586 Avada Avenue, Avadaville 30221 – USA</a></li>
+            <li><a href="mailto:ext-sports@my-domain.com" class="text-white">Email: ext-sports@my-domain.com</a></li>
+            <li><a href="tel:+5558021234" class="text-white">Phone: (555) 802-1234</a></li>
+          </ul>
+        </div>
+        <div class="w-full md:w-1/2">
+          <p class="text-white text-center md:text-right">© 2021 | Avada Theme by ThemeFusion | All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    $(document).ready(function () {
+      // Toggle menu visibility when menu icon is clicked
+      $('#main_menu button').click(function () {
+        $('#main_menu .lg\\:flex').toggleClass('hidden');
+      });
+    });
+  </script>
+</body>
+
+</html>
